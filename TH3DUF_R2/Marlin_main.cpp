@@ -13285,9 +13285,9 @@ void process_parsed_command() {
           break;
       #endif
 
-      #if DISABLED(SLIM_1284P)
+      //#if DISABLED(SLIM_1284P) //ThKa: need this!
         case 211: gcode_M211(); break;                              // M211: Enable/Disable/Report Software Endstops
-      #endif
+      //#endif
 
       #if HOTENDS > 1
         case 218: gcode_M218(); break;                            // M218: Set Tool Offset
