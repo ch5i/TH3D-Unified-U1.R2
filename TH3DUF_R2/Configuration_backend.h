@@ -2325,15 +2325,15 @@
   #endif
   
   #if ENABLED(ENDER5)
-	   #if ENABLED(BLTOUCH)
-		    #define X_BED_SIZE 220
-		    #define Y_BED_SIZE 220
-		    #define Z_MAX_POS 300
-	   	#else
-			#define X_BED_SIZE 235
-			#define Y_BED_SIZE 235
-			#define Z_MAX_POS 250
-		#endif
+    #if ENABLED(BLTOUCH)
+      #define X_BED_SIZE 220
+      #define Y_BED_SIZE 235
+      #define Z_MAX_POS 300
+    #else
+      #define X_BED_SIZE 235
+      #define Y_BED_SIZE 235
+      #define Z_MAX_POS 300
+    #endif
   #endif
 
   #if ENABLED(HOME_ADJUST)
