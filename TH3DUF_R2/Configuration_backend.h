@@ -2325,7 +2325,6 @@
   #endif
   
   #if ENABLED(ENDER5)
-    #if ENABLED(BLTOUCH)
       #define X_BED_SIZE 220
       #define Y_BED_SIZE 220
       #define Z_MAX_POS 300
