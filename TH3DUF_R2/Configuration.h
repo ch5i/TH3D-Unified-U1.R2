@@ -918,7 +918,7 @@
   *    (0,0)
   */
   #define X_PROBE_OFFSET_FROM_EXTRUDER -43  // X offset: -left  +right  [of the nozzle]
-  #define Y_PROBE_OFFSET_FROM_EXTRUDER -10  // Y offset: -front +behind [the nozzle]
+  #define Y_PROBE_OFFSET_FROM_EXTRUDER -6  // Y offset: -front +behind [the nozzle]
 #endif
 
 //===========================================================================
@@ -1011,7 +1011,7 @@
 //#define SLOWER_HOMING
 
 // Using a Creality Silent Board? Enable the below option to set the correct driver setting for those boards
-//#define TMC_CREALITY_BOARD
+#define TMC_CREALITY_BOARD
 
 // BOOT SCREEN OPTIONS -----------------------------
 
