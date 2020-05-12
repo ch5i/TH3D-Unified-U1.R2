@@ -3372,7 +3372,7 @@
       #if ENABLED(EZABL_SUPERFASTPROBE)
         #define XY_PROBE_SPEED 16000
       #else
-        #define XY_PROBE_SPEED 12000
+        #define XY_PROBE_SPEED 16000
       #endif
     #endif
   #endif
@@ -3386,9 +3386,9 @@
   #define MULTIPLE_PROBING 2
 
   #if ENABLED(BLTOUCH)
-    #define Z_CLEARANCE_DEPLOY_PROBE   15
-    #define Z_CLEARANCE_BETWEEN_PROBES 10
-    #define Z_CLEARANCE_MULTI_PROBE    10
+    #define Z_CLEARANCE_DEPLOY_PROBE   10
+    #define Z_CLEARANCE_BETWEEN_PROBES 5
+    #define Z_CLEARANCE_MULTI_PROBE    5
     #define ENDSTOPPULLUP_ZMIN
     #define ENDSTOPPULLUP_ZMIN_PROBE
   #elif ENABLED(EZABL_SUPERFASTPROBE)
