@@ -3260,19 +3260,10 @@
     #define DEFAULT_Kp 31.89
     #define DEFAULT_Ki 4.99
     #define DEFAULT_Kd 50.94
-  #else  
-    
-	// default values
-	//#define  DEFAULT_Kp 22.2
-    //#define  DEFAULT_Ki 1.08
-    //#define  DEFAULT_Kd 114
-	
-	// values with MicroSwiss
-	// on Ender-5
-	#define DEFAULT_Kp 27.84
-	#define DEFAULT_Ki 3.27
-	#define DEFAULT_Kd 59.31
-	
+  #else
+    #define DEFAULT_Kp 29.70
+    #define DEFAULT_Ki 3.49
+    #define DEFAULT_Kd 63.25	
   #endif
 #endif 
 

@@ -1002,7 +1002,8 @@
 // MISC --------------------------------------------
 
 // If you have a 5015 fan that whines when under 100% speed uncomment the below line.
-//#define FAN_FIX
+#define FAN_FIX
+// uncommented to get stock cooling fan to run at low rpm
 
 // Use your own printer name
 #define USER_PRINTER_NAME "ENDER-5 TH3D" 
