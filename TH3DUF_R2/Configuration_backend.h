@@ -3271,9 +3271,9 @@
     #define DEFAULT_Ki 4.99
     #define DEFAULT_Kd 50.94
   #else  
-    #define DEFAULT_Kp 24.39
-    #define DEFAULT_Ki 1.97
-    #define DEFAULT_Kd 75.38	
+    #define DEFAULT_Kp 28.41
+    #define DEFAULT_Ki 2.84
+    #define DEFAULT_Kd 70.99
   #endif
 #endif 
 
@@ -3618,7 +3618,7 @@
 
   //added to help start fan a low rpm
   #define FAN_KICKSTART_TIME 300
-  #define FAN_MIN_PWM 32
+  #define FAN_MIN_PWM 1
   
 #else
   #define SOFT_PWM_SCALE 0
