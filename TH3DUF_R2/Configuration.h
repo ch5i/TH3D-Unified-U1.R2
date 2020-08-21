@@ -1023,7 +1023,7 @@
 //#define TM3D_BOOT
 
 // Disable Bootscreen completely
-//#define DISABLE_BOOT
+#define DISABLE_BOOT
 
 //===========================================================================
 //*************************** COMMUNITY FEATURES ****************************
