@@ -3617,7 +3617,7 @@
   #define SOFT_PWM_SCALE 1
 
   //added to help start fan a low rpm
-  #define FAN_KICKSTART_TIME 500
+  #define FAN_KICKSTART_TIME 1000
   #define FAN_MIN_PWM 51
   
 #else
