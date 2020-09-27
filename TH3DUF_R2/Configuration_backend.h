@@ -3271,9 +3271,9 @@
     #define DEFAULT_Ki 4.99
     #define DEFAULT_Kd 50.94
   #else  
-    #define DEFAULT_Kp 28.41
-    #define DEFAULT_Ki 2.84
-    #define DEFAULT_Kd 70.99
+    #define DEFAULT_Kp 35.97
+    #define DEFAULT_Ki 4.83
+    #define DEFAULT_Kd 67.04
   #endif
 #endif 
 
